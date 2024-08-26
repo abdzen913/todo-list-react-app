@@ -1,0 +1,41 @@
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+
+
+button:disabled {
+  cursor: not-allowed;
+
+}
+.square {
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  background: rgba(197, 207, 55, 0.842);
+  border: 10px solid #bdbaba;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  line-height: 60px;
+  align-items: center;
+  
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3,60px);
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn {
+  /* display: block; */
+  margin-inline: auto;
+  margin-top: 90px;
+ 
+
+}
